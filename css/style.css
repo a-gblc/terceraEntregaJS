@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500&display=swap");
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 100%;
+font-size: 20px;
+background-color: rgba(12, 177, 136, 0.836);
+color: rgb(238, 255, 234);
+box-sizing: border-box;
+position: sticky;
+top: 0;
+}
+
+header .hermesPrestamos {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+gap: none;
+color: rgb(238, 250, 235);
+font-family: "IBM Plex Mono", monospace;
+font-weight: 400;
+font-size: 25px;
+font-style: normal;
+margin-left: 20px;
+margin-top: 5px;
+
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+}
+
+.navbar {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 2.5rem;
+margin-right: 20px;
+flex-wrap: wrap;
+text-decoration: none;
+}
+
+ul {
+
+list-style: none;
+
+}
+.navbar li a {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+text-decoration: none;
+color: rgb(238, 250, 235);
+font-family: "IBM Plex Mono", monospace;
+font-weight: 400;
+font-size: 1.25rem;
+font-style: normal;
+
+}
+
+
+h1 {
+    margin-left: 20px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    color: rgb(238, 250, 235);
+}
+
+.principal {
+
+    background-color: rgba(98, 15, 233, 0.836);
+}
+
+
+.pieDePagina {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(132, 176, 233, 0.877);
+    width: 100%;
+    
+}
+
+.pieDePagina .textoPie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    width: 100%;
+    
+    font-size: 20px;
+    font-style: normal;
+    color: rgb(238, 250, 235);
+}
