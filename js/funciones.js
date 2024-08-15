@@ -46,6 +46,7 @@ while (isNaN(montoSolicitado)) {
 
 const prestamo1 = new Prestamo(eleccionPrestamo, plazoDelPrestamoMeses, montoSolicitado);
 prestamo1.calcularPrestamo();
+console.log(prestamo1);
 
 
 
