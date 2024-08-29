@@ -9,30 +9,39 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="hermesPrestamos">Pr&eacutestamos test</div>
-            <nav>
-                <ul class="navbar">
-                    <li><a href ="#">Inicio</a></li>
-                    <li><a href ="./pages/hipotecario.html">Hipotecario</a></li>
-                    <li><a href =".//pages/automotor.html">Automotor</a></li>
-                    <li><a href ="./pages/pyme.html">Pyme</a></li>
-                    <li><a href ="./pages/prestamoPersonal.html">Pr&eacutestamo Personal</a></li>
-                </ul>
-            </nav>
+
     </header>
     <main class="principal">
-        <h1 class="textoH1">Comision #59950_Agustin_Garcia</h1>
+        <h1>Calculadora de Pr&eacutestamo</h1>
+
+    <div class="calculadoraDePrestamo">
+        <form id="prestamoForm">
+        <label for="tipoPrestamoDesplegable">Tipo de Préstamo:</label>
+        <select id="tipoPrestamoDesplegable"></select>
+        
+        <label for="monto">Monto a Solicitar:</label>
+        <input type="number" id="monto">
+        
+        <label for="plazo">Plazo (meses):</label>
+        <input type="number" id="plazo">
+        
+        <button type="button" class="button_grey" onclick="calcularPrestamo()">Calcular mi pr&eacutestamo </button>
+    </form>
+    </div>
+
+
+    <div id="simulacion"></div>
+    <h1 class="textoH1">Comision #59950_Agustin_Garcia</h1>
+    
     </main>
 
     <footer class="pieDePagina">
-        <p class="textoPie">CoderHouse 2024</p>
+    <p id="pieDePagina" class="textoPie"></p>
     </footer>
-    
-<script src="./js/funciones.js"></script>
-
-    
-    
+    <script src="./js/navegacion.js"></script>    
+    <script src="./js/funciones.js"></script>
 </body>
 
 </html>
