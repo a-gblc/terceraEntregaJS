@@ -2,6 +2,7 @@
 
 //La creacion de la barra de navegacion desde .js esta hecho solamente para index.html, en el resto de las paginas no lo 
 //termine. Cuando voy al INICIO desde la barra de navegacion me da un error, evidentemente no esta bien hecho el tema de crearlo desde el .js
+// Tambien tuve problemas al intentar centrel el select del formu;lario de simulacion, asi como los input de monto y plazo, me gustaria que quedaran m'as prolijos.
 
 
 document.addEventListener('DOMContentLoaded', function () {
